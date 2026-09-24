@@ -2,9 +2,6 @@
 
 **Applied machine learning prototypes** demonstrating supervised classification (k-NN + PCA) and unsupervised clustering (K-Means, GMM) on real-world datasets.
 
-**Author:** Eugin Wangila  
-**License:** MIT
-
 ---
 
 ## Overview
