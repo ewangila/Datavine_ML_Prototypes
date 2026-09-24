@@ -31,7 +31,6 @@ Datavine_ML_Prototypes/
 ├── LICENSE
 └── README.md
 ```
-**Note:** The Wine dataset is loaded directly from scikit-learn (`load_wine`).
 ---
 
 ## Installation & Setup
