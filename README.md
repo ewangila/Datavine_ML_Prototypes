@@ -67,12 +67,12 @@ scikit-learn>=1.3.0
 
 ## Methodology Highlights
 
-- **Reproducibility**: Fixed random seed (`np.random.seed(42)`) throughout
-- **Preprocessing**: `StandardScaler` applied before PCA / distance-based methods
-- **Model Selection**:
-  - **Classification**: `GridSearchCV` + stratified train/test split
-  - **Clustering**: Elbow + BIC + Silhouette consensus
-- **Evaluation**: Accuracy, classification report, confusion matrices, silhouette scores
+- **Reproducibility:** Fixed random seed (`np.random.seed(42)`) applied across all workflows.
+- **Feature Pipeline:** `StandardScaler` normalization before applying PCA or distance-based algorithms.
+- **Model Selection:**
+  - **Supervised:** `GridSearchCV` hyperparameter tuning with stratified train/test splitting.
+  - **Unsupervised:** Consensus clustering evaluation via Elbow curves, BIC, and Silhouette scores.
+- **Evaluation Metrics:** Accuracy, classification reports, confusion matrices, and cluster cohesion metrics.
 
 ---
 
